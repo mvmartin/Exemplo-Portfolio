@@ -3,7 +3,6 @@
 *{
     padding: 0;
     margin: 0;
-    font-size: 16px;
     list-style: none;
     text-decoration: none;
 }
@@ -38,7 +37,7 @@ header{
 
 .banner{
     width:100%;
-    height: 90vh;
+    height: 100vh;
     animation: zoom 5s;
 }
 
@@ -75,9 +74,9 @@ header{
 .devInfoInicial h1{
     font-size: 3.5rem;
     color:#28d0ff;
-    line-height: 4rem;
     text-shadow: black 1px 5px;
     font-weight: 200;
+    width: 100%;
 }
 
 .devInfoInicial p{
@@ -127,7 +126,7 @@ header{
    display: flex;
    width: 100%;
    justify-content: space-around;
-   bottom: 5rem;
+   bottom: 2rem;
 }
 
 .icons{
@@ -140,3 +139,173 @@ header{
     background-color: aqua;
     border-radius: 50%;
 }
+
+
+
+h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(163, 142, 142);
+    
+}
+
+.conhecimentos{
+
+    display: grid;
+    grid-template-areas: 
+    "section-header",
+    "section-css",
+    "section-javascript",
+    "section-reactjs",
+    "section-git",
+    "section-img";
+
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    background-color:rgba(211, 211, 211, 0.377);
+    padding-top: .5rem;
+    height:600px;
+    
+
+}
+
+
+.section-header{
+
+    grid-column: 6 / 12;
+    text-align: center;
+    font-family: "Mulish";
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.397);
+    padding-top: 2rem;
+    border-bottom: lightskyblue solid 3px;
+
+}
+
+.section-html{
+    background: url(./img/html.png);
+    background-size: 2rem;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:40%;
+
+    text-align:center;
+    grid-row: 2 / 3;
+    grid-column: 3 / 5;
+    text-transform: uppercase;
+    font-family: var(--font-primary);
+    
+}
+
+
+.section-html p {
+    padding-top: 1.5rem;
+    text-transform: none;
+    color: gray;
+    font-size: .8rem;
+    line-height: 15px;
+
+}
+
+
+.section-css{
+
+    background: url(./img/css-3.png);
+    background-size: 2rem;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 30%;
+    text-transform: uppercase;
+    text-align: center;
+    grid-row: 4 / 5 ;
+    grid-column: 3 / 5;
+    font-family: var(--font-primary);
+    
+}
+
+.section-css p {
+    padding-top: 1.5rem;
+    text-transform: none;
+    color: gray;
+    font-size: .8rem;
+    line-height: 15px;
+}
+
+
+
+
+.section-javascript{
+    background: url(./img/icons8-javascript-48.png);
+    background-size: 3rem;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 40%;
+    text-align: center;
+    grid-row: 6 / 7 ;
+    grid-column: 3 / 5;
+    font-family: var(--font-primary);
+}
+
+.section-javascript p {
+    padding-top: 2rem;
+    color: gray;
+    font-size: .8rem;
+    line-height: 15px;
+}
+
+
+.section-reactjs{
+
+    background: url(./img/physics.png);
+    background-size: 3rem;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 55%;
+    text-align: center;
+    grid-row: 2 / 3 ;
+    grid-column: 13 / 15;
+    font-family: var(--font-primary);
+    
+}
+
+.section-reactjs p {
+    padding-top: 3rem;
+    color: gray;
+    font-size: .8rem;
+    line-height: 15px;
+    
+}
+
+.section-git{
+    background: url(./img/git.png);
+    background-size: 3rem;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 40%;
+    text-align: center;
+    grid-row: 4 / 5 ;
+    grid-column: 13 / 15;
+    font-family: var(--font-primary);
+
+}
+
+
+.section-git p {
+    padding-top: 3rem;
+    color: gray;
+    font-size: .8rem;
+    line-height: 15px;
+}
+
+
+.section-img{
+    background: url(./img/pic.png );
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: center;
+    grid-column: 3 / 15;
+    grid-row: 2 / 11;
+    
+}
+
