@@ -8,7 +8,7 @@
     
 }
 
-main{
+html{
 
     background-image: linear-gradient(to bottom, #01040f, #01091a 80%)
 
@@ -164,8 +164,7 @@ header{
     grid-template-rows: repeat(10, 1fr);
     padding-top: .5rem;
     height:100vh;
-    
-
+    border-bottom: rgba(255, 255, 255, 0.062) 1px solid;
 }
 
 h3{
@@ -191,7 +190,7 @@ h3{
     background-size: 2rem;
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y:40%;
+    background-position-y:42%;
 
     text-align:center;
     grid-row: 2 / 3;
@@ -219,7 +218,7 @@ h3{
     background-size: 2rem;
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: 30%;
+    background-position-y: 35%;
     text-transform: uppercase;
     text-align: center;
     grid-row: 4 / 5 ;
@@ -317,8 +316,7 @@ h3{
 
 .section-projetos{
    margin-top: 2rem;
-    border-top:rgba(255, 255, 255, 0.062) 1px solid;
-    
+
 }
 
 .projetos-header h2{
@@ -341,17 +339,11 @@ h3{
     padding-top: 5rem;
 }
 
-.primeiro-projeto{
-
-    
-
-}
-
-
 .card{
     width: 200px;
     height: 300px;
 }
+
 
 .descricao{
     text-align: center;
@@ -362,31 +354,145 @@ h3{
     border-radius: 3%;
     font-family: "Mulish";
     font-size: .8rem;
+    color: rgb(206, 136, 6);
 }
 
 .descricao h3{
     font-size: 1rem;
+    margin-bottom: .2rem;
+    color: rgb(206, 136, 6);
 }
 
 .descricao a{
     color: aqua;
 }
 
+h4{
+    text-transform: uppercase;
+
+}
+
+.section-contato{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    border-top: rgba(255, 255, 255, 0.062) 1px solid;
+    
+}
+
+.contato{
+    width: 60%;
+    height: 30rem;
+    display: flex;
+}
 
 
+.contato-esquero{
+    width: 35%;
+    background: url(/img/banner2.jpg);
+    opacity: 0.9;
+    background-size: cover;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    
+   
+
+}
+
+.contato-direito{
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem 2rem 2rem;
+    border-end-end-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.section-contato h1{
+    font-family: var(--font-primary);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+
+}
+
+.section-contato form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.input-group{
+
+    position: relative;
+    width: 90%;
+
+}
+
+.field{
+
+    background: transparent;
+    border: none;
+    width: 25rem;
+    font-size: 1rem;
+    border-bottom: .1rem gray dashed;
+    height: 3rem;
+    outline: none ;
+    margin: 1rem 0;
+
+}
+
+.field-label{
+    position: absolute;
+    left: 0;
+    font-family: "Mulish";
+    color: rgb(90, 90, 90);
+    top: 2rem;
+    transition: all 0.3s;
+}
+
+.input-group textarea{
+    padding-top: 1rem;
+    max-width: 28rem;
+    max-height: 8rem;
+}
+
+.field:focus ~ label{
+
+    top: 0;
+    
+
+}
+
+.field:focus{
+    border-bottom: 1px solid;
+
+}
 
 
+.contato-button{
+    margin-top: 0.6rem;
+    padding:0 3rem;
+    font-family: var(--font-primary);
+    background: rgb(206, 136, 6);
+    color: white;
+    border:none;
+    border-radius: 4%;
+    font-size: 1rem;
+    cursor: pointer;
+}
 
+.contato-button:hover{
 
+    background:rgb(255, 119, 0);
+    transition: 0.4s;
 
-
-
-
-
-
-
-
-
+}
 
 
 .rodape{
@@ -395,10 +501,13 @@ h3{
     font-size: 1.5rem;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    background: lightgray;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.7);
+    
 }
 
 .img-rodape{
-    height: 70px;
+    height: 50px;
+    ;
 }
+
