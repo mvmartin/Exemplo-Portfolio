@@ -1,0 +1,162 @@
+.conhecimentos{
+    display: grid;
+    grid-template-areas: 
+    "section-header",
+    "section-css",
+    "section-javascript",
+    "section-reactjs",
+    "section-git",
+    "section-img";
+
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    padding-top: .5rem;
+    height:100vh;
+    border-bottom: rgba(255, 255, 255, 0.062) 1px solid;
+}
+
+h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+}
+
+.conhecimento-header{
+
+    grid-column: 7 / 11;
+    text-align: center;
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.877);
+    padding-top: 2rem;
+    border-bottom: rgba(255, 255, 255, 0.699) solid 2px;
+    
+}
+
+.section-html{
+    background: url(../img/html.png);
+    background-size: 2rem;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:35%;
+
+    text-align:center;
+    grid-row: 2 / 3;
+    grid-column: 3 / 5;
+    text-transform: uppercase;
+    font-family: var(--font-primary);
+    
+    
+}
+
+
+.section-html p {
+    padding-top: 2.5rem;
+    text-transform: none;
+    color: white;
+    font-size: .8rem;
+    line-height: 15px;
+
+}
+
+
+.section-css{
+
+    background: url(../img/css-3.png);
+    background-size: 2rem;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 40%;
+    text-transform: uppercase;
+    text-align: center;
+    grid-row: 4 / 5 ;
+    grid-column: 3 / 5;
+    font-family: var(--font-primary);
+    
+}
+
+.section-css p {
+    padding-top: 2.4rem;
+    text-transform: none;
+    color: white;
+    font-size: .8rem;
+    line-height: 15px;
+}
+
+
+
+
+.section-javascript{
+    background: url(../img/icons8-javascript-48.png);
+    background-size: 3rem;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 35%;
+    text-align: center;
+    grid-row: 6 / 7 ;
+    grid-column: 3 / 5;
+    font-family: var(--font-primary);
+}
+
+.section-javascript p {
+    padding-top: 2.5rem;
+    color: white;
+    font-size: .8rem;
+    line-height: 15px;
+}
+
+.section-reactjs{
+
+    background: url(../img/physics.png);
+    background-size: 3rem;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 35%;
+    text-align: center;
+    grid-row: 2 / 3 ;
+    grid-column: 13 / 15;
+    font-family: var(--font-primary);
+    
+}
+
+.section-reactjs p {
+    padding-top: 3rem;
+    color: white;
+    font-size: .8rem;
+    line-height: 15px;
+    
+}
+
+.section-git{
+    background: url(../img/git.png);
+    background-size: 3rem;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 40%;
+    text-align: center;
+    grid-row: 4 / 5 ;
+    grid-column: 13 / 15;
+    font-family: var(--font-primary);
+
+}
+
+
+.section-git p {
+    padding-top: 3rem;
+    color: white;
+    font-size: .8rem;
+    line-height: 15px;
+}
+
+
+.section-img{
+    background: url(../img/gif.gif);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center;
+    grid-column: 3 / 15;
+    grid-row: 2 / 9
+  
+}
+
+

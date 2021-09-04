@@ -1,0 +1,59 @@
+
+.section-projetos{
+    margin-top: 2rem;
+ 
+ }
+ 
+ .projetos-header h2{
+     width: 200px;
+     color: white;
+     text-align: center;
+     margin-left: 42%;
+     font-size: 3rem;
+     font-family: var(--font-primary);
+     border-bottom: rgba(255, 255, 255, 0.699) solid 2px;
+     
+ }
+ 
+ .projetos-desenvolvedor{
+     display: flex;
+     align-items: flex-start;
+     height: 100vh;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     padding-top: 5rem;
+ }
+ 
+ .card{
+     width: 200px;
+     height: 300px;
+ }
+ 
+ 
+ .descricao{
+     text-align: center;
+     color: white;
+     margin-top: 5px;
+     padding:0 0 .3rem;
+     border: 1px solid rgba(0, 255, 255, 0.11);
+     border-radius: 3%;
+     font-family: "Mulish";
+     font-size: .8rem;
+     color: rgb(206, 136, 6);
+ }
+ 
+ .descricao h3{
+     font-size: 1rem;
+     margin-bottom: .2rem;
+     color: rgb(206, 136, 6);
+ }
+ 
+ .descricao a{
+     color: aqua;
+ }
+ 
+ h4{
+     text-transform: uppercase;
+ 
+ }
+ 

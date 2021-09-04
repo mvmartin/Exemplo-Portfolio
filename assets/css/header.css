@@ -1,0 +1,79 @@
+.banner-pai{background-color: #01040f}
+
+header{
+    overflow: hidden;
+}
+
+:root{
+    --font-primary:"Baloo Da 2";
+}
+
+.hamburguer{
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    z-index: 100;
+    right: 2rem;
+    top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.line{
+    width: 100%;
+    background: white;
+    height: .1rem;
+    box-shadow:black 1px 1px;
+}
+
+.banner{
+    width:100%;
+    height: 100vh;
+    animation: zoom 5s;
+    
+}
+
+@keyframes zoom{
+    0%{
+            transform:scale(1.1);
+    }
+    100%{
+            transform:scale(1);    
+    }
+}
+
+
+.info-inicial{
+    font-family: var(--font-primary), sans-serif;
+    position: absolute;
+    top: 33%;
+    right:1%;
+    margin-right: 30%; 
+    text-align: center;
+    animation: move 1s;
+}
+
+@keyframes move{
+    0%{
+        transform: translateY(15rem) rotateY(-30deg);
+    }
+    100%{
+        transform: translateY(0) rotateY(0);
+    }
+    
+}
+
+.info-inicial h1{
+    font-size: 3.5rem;
+    color:#28d0ff;
+    text-shadow: black 1px 5px;
+    font-weight: 200;
+    
+}
+
+.info-inicial p{
+    color:white;
+    font-size: 2rem;
+}

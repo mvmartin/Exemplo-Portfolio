@@ -1,0 +1,16 @@
+
+.rodape{
+    
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.7);
+    
+}
+
+.img-rodape{
+    height: 40px;
+    margin:0 2rem;
+}
