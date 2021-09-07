@@ -1,7 +1,8 @@
+
 # Portfolio
+
 Portfólio do desenvolvedor 
 
-## Tarefa
+🚧  ReadME Em construção...  🚧
 
-O controle das tarefas desse projeto será realizada no GitHub
 
