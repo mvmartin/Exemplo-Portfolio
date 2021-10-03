@@ -12,3 +12,8 @@ CSS - Estilização e Design, através do uso de fontes externas [ Google Fonts 
 JavaScript - Navegação pelo DOM com querySelector.
 
 
+<h1 align="center">
+   <img src=https://github.com/mvmartin/Portfolio/blob/main/portfolio%20gif.gif height="400px" /> 
+  </h1>
+
+
